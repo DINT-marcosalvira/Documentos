@@ -1,0 +1,13 @@
+﻿<Window x:Class="Documentos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Documentos"
+        mc:Ignorable="d"
+        Title="Docs" Height="450" Width="800" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Icon="contact_email_garden_letter_flower_envelope_note_communication.ico">
+    <StackPanel Orientation="Vertical">
+        <Button x:Name="NuevoButton" Content="Nuevo documento" Margin="7,7,7,7" Click="NuevoButton_Click"></Button>
+        <Button x:Name="ConfButton" Content="Configuración" Margin="7,0,7,7" Click="ConfButton_Click"></Button>
+    </StackPanel>
+</Window>
