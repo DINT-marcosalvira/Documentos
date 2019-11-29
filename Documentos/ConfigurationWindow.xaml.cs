@@ -35,7 +35,7 @@ namespace Documentos
             this.Alto = int.Parse(AltoTextBox.Text.ToString());
             this.Ancho = int.Parse(AnchoTextBox.Text.ToString());
             DialogResult = true;
-            Close();
+            //Close(); No se ejecuta nunca porque el dialogResult cuando da valor se cierra
         }
 
         private void CancelarButton_Click(object sender, RoutedEventArgs e)
