@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Documentos"
         mc:Ignorable="d"
-        Title="Configuration" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Icon="settings.ico" >
+        Title="Configuration" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Icon="settings.ico" ShowInTaskbar="False">
     <StackPanel Orientation="Vertical">
         <Grid>
             <Grid.RowDefinitions>

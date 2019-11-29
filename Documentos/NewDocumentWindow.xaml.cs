@@ -40,11 +40,11 @@ namespace Documentos
         {
             MessageBoxResult m =  MessageBox.Show("¿Está seguro que quiere cerrar?", "CERRAR", System.Windows.MessageBoxButton.OKCancel, MessageBoxImage.Information);
 
-            if (m == MessageBoxResult.OK)
+            if(m == MessageBoxResult.Cancel)
             {
-                return;
+                e.Cancel = true;
             }
-            e.Cancel = true;
-        }
+
+            }
     }
 }

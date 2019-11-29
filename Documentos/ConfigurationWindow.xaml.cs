@@ -34,6 +34,7 @@ namespace Documentos
         {
             this.Alto = int.Parse(AltoTextBox.Text.ToString());
             this.Ancho = int.Parse(AnchoTextBox.Text.ToString());
+            DialogResult = true;
             Close();
         }
 
